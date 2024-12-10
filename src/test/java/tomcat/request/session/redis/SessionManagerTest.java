@@ -4,12 +4,12 @@ import java.io.IOException;
 import java.util.Date;
 import java.util.Enumeration;
 
-import javax.servlet.ServletException;
-import javax.servlet.annotation.WebServlet;
-import javax.servlet.http.HttpServlet;
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
-import javax.servlet.http.HttpSession;
+import jakarta.servlet.ServletException;
+import jakarta.servlet.annotation.WebServlet;
+import jakarta.servlet.http.HttpServlet;
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletResponse;
+import jakarta.servlet.http.HttpSession;
 
 @WebServlet("/")
 public class SessionManagerTest extends HttpServlet {
@@ -44,7 +44,7 @@ public class SessionManagerTest extends HttpServlet {
 
 	/**
 	 * method to send response
-	 * 
+	 *
 	 * @param response
 	 * @param responseData
 	 * @throws IOException
@@ -57,7 +57,7 @@ public class SessionManagerTest extends HttpServlet {
 
 	/**
 	 * method to get actions
-	 * 
+	 *
 	 * @param request
 	 * @return
 	 */
@@ -95,7 +95,7 @@ public class SessionManagerTest extends HttpServlet {
 
 	/**
 	 * method to set session values
-	 * 
+	 *
 	 * @param session
 	 * @return
 	 */
@@ -108,7 +108,7 @@ public class SessionManagerTest extends HttpServlet {
 
 	/**
 	 * method to get session values
-	 * 
+	 *
 	 * @param session
 	 * @param action
 	 * @return
